@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
 
-class Barang{
+class Barang {
 public:
     string nama;
     int jumlah;
     string kategori;
     string tahunProduksi;
 
-    void inputData(){
-        cout << "====================Input Data====================" << endl;
+    void inputData() {
+        cout << "==================== Input Data ====================" << endl;
 
         cout << "Masukkan Nama Barang : ";
         cin >> nama;
@@ -24,20 +24,21 @@ public:
         cin >> tahunProduksi;
     }
 
-   void tampilSpek(){
-    cout << "====================Tampil Data====================" << endl;
-    cout << "Nama Barang : " << nama << endl;
-    cout << "Jumlah Barang : " << jumlah << endl;
-    cout << "Kategori Barang : " << kategori << endl;
-    cout << "Tanggal Produksi : " << tahunProduksi << endl;
-    cout << "==================================================" << endl;
-}
+    void tampilSpek() {
+        cout << "==================== Tampil Data ====================" << endl;
+        cout << "Nama Barang : " << nama << endl;
+        cout << "Jumlah Barang : " << jumlah << endl;
+        cout << "Kategori Barang : " << kategori << endl;
+        cout << "Tanggal Produksi : " << tahunProduksi << endl;
+        cout << "====================================================" << endl;
+    }
 };
 
-int main(){
+int main() {
 
     Barang elektronik;
     Barang nonElectronik;
+
     elektronik.inputData();
     elektronik.tampilSpek();
 
@@ -46,4 +47,6 @@ int main(){
 
     nonElectronik.inputData();
     nonElectronik.tampilSpek();
+
+    return 0;
 }
