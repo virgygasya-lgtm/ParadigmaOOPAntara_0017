@@ -38,3 +38,5 @@ int main(){
 
     Barang elektronik;
     Barang nonElectronik;
+    elektronik.inputData();
+    elektronik.tampilSpek();
