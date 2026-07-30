@@ -32,3 +32,9 @@ public:
     cout << "Tanggal Produksi : " << tahunProduksi << endl;
     cout << "==================================================" << endl;
 }
+};
+
+int main(){
+
+    Barang elektronik;
+    Barang nonElectronik;
