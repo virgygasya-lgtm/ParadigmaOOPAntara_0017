@@ -43,3 +43,7 @@ int main(){
 
     cout << endl;
     cout << endl;
+
+    nonElectronik.inputData();
+    nonElectronik.tampilSpek();
+}
