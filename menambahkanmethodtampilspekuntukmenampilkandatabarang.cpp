@@ -23,3 +23,9 @@ public:
         cout << "Masukkan Tanggal Produksi Barang : ";
         cin >> tahunProduksi;
     }
+
+    void tampilSpek(){
+        cout << "====================Tampil Data====================" << endl;
+
+        cout << "Nama Barang : " << nama << endl;
+        cout << "Jumlah Barang : " << jumlah << endl;
