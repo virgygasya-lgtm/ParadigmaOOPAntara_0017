@@ -43,3 +43,6 @@ public:
         cout << "y = " << y << endl;
     }
 };
+
+int main() {
+    AbstraksiKlas ak;
