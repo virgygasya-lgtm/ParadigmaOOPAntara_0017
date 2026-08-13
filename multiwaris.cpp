@@ -4,7 +4,6 @@ using namespace std;
 class orang {
 public:
     int umur;
-
     orang(int pUmur) :
         umur(pUmur)
     {
@@ -44,5 +43,6 @@ public:
 
 int main() {
     budi a(12);
+
     return 0;
 }
