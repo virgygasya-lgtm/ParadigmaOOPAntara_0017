@@ -55,3 +55,6 @@ int main()
 
         //pemanggilan function perkenalan dari class pelajar
     cout << siswa1.perkenalan();
+
+        //pemanggilan function warisan dari class orang kepada class object
+    cout << "Hasil = " << siswa1.jumlah(10, 90) << endl;
