@@ -21,3 +21,11 @@ public:
     int jumlah(int a, int b) {
         return a + b;
     }
+
+    };
+
+//pembuatan class pelajar sebagai pewaris dari class orang
+class pelajar : public orang {
+public:
+    //deklarasi member variable dari class pelajar
+    string sekolah;
