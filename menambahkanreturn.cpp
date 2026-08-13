@@ -58,3 +58,5 @@ int main()
 
         //pemanggilan function warisan dari class orang kepada class object
     cout << "Hasil = " << siswa1.jumlah(10, 90) << endl;
+
+    return 0;
