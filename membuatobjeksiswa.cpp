@@ -49,3 +49,6 @@ public:
 
 int main()
 {
+
+        //deklarasi dan pemberian nilai untuk variable object siswa1
+    pelajar siswa1("andi laksono", "SMAN 1 Bantul");
